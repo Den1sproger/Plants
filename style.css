@@ -68,14 +68,6 @@ nav {
   justify-content: center;
 }
 
-/* .nav__list {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-} */
-
 .nav__link {
   color: #010201;
   line-height: 50px;
