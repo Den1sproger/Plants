@@ -3,12 +3,22 @@ html {
 }
 
 body {
+  margin: 0;
   height: 3870px;
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 header {
-  display: inline-flex;
+  display: flex;
   height: 50px;
   padding: 42px 109px 42px 111px;
   justify-content: center;
@@ -19,19 +29,6 @@ header {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-}
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .navbar {
@@ -81,12 +78,16 @@ nav {
   text-decoration: none;
 }
 
+
+
+
 #welcome {
   display: flex;
-  width: 1440px;
+  min-width: 1440px;
   height: 532px;
   font-family: 'Inter';
   font-style: normal;
+  background: #EDF2EC;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
@@ -97,7 +98,6 @@ nav {
   height: 407.358px;
   padding: 62px 109px 62.642px 109px;
   flex-shrink: 0;
-  background: #EDF2EC;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -221,9 +221,12 @@ h1 span {
   color: #499A18;
 }
 
+
+
+
 #about {
   display: flex;
-  width: 1440px;
+  min-width: 1440px;
   height: 666px;
   justify-content: center;
   align-items: center;
@@ -283,16 +286,29 @@ h1 span {
   flex-shrink: 0;
 }
 
+
+
+
 #service {
   display: flex;
-  width: 1222px;
+  min-width: 1222px;
   height: 1139px;
   padding: 40px 109px 121px 109px;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 90px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 90px; */
   background: #EDF2EC;
   font-style: normal;
+}
+
+.service__container {
+  min-width: 1222px;
+  height: 1139px;
+  gap: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .services__content {
@@ -404,9 +420,12 @@ h1 span {
   line-height: 20px; /* 125% */
 }
 
+
+
+
 #prices {
   display: flex;
-  width: 1222px;
+  min-width: 1222px;
   height: 405px;
   padding: 40px 109px 115px 109px;
   justify-content: center;
@@ -415,6 +434,12 @@ h1 span {
   font-family: Inter;
   font-style: normal;
   font-weight: 700;
+}
+
+.prices__container {
+  width: 1222px;
+  height: 405px;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -424,6 +449,11 @@ h1 span {
   width: 332px;
   height: 391.015px;
   flex-shrink: 0;
+}
+
+.prices h2 {
+  font-size: 40px;
+  line-height: normal;
 }
 
 .prices__item {
@@ -569,8 +599,11 @@ h1 span {
   align-items: flex-start;
 }
 
+
+
+
 #contacts {
-  width: 1222px;
+  min-width: 1222px;
   height: 497px;
   padding: 53px 109px 0 109px;
   flex-shrink: 0;
@@ -578,10 +611,20 @@ h1 span {
   font-style: normal;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
-#contacts img {
+.contacts__container {
+  min-width: 1222px;
+  height: 497px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contacts__container img {
   width: 400px;
   height: 496.986px;
   flex-shrink: 0;
@@ -599,7 +642,7 @@ h1 span {
   margin-top: 7px;
 }
 
-.contacts-container {
+.contacts__cities {
   width: 450px;
   height: 50px;
   margin-top: 95px;
@@ -612,7 +655,7 @@ h1 span {
   align-items: center;
 }
 
-.contacts-container span {
+.contacts__cities span {
   width: 204px;
   height: 40px;
   margin-left: 20px;
@@ -625,17 +668,19 @@ h1 span {
   letter-spacing: 1px;
 }
 
-.contacts-container svg {
+.contacts__cities svg {
   margin-right: 35px;
 }
 
+
+
+
 footer {
   display: flex;
-  width: 1222px;
   height: 50px;
   padding: 40px 109px;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-shrink: 0;
   font-family: Inter;
@@ -645,6 +690,15 @@ footer {
   line-height: 50px; /* 250% */
 }
 
+.footer__container {
+  width: 1222px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer__data {
   display: inline-flex;
   padding-right: 0px;
@@ -652,7 +706,7 @@ footer {
   gap: 20px;
 }
 
-.footer__data a {
+.footer__container a {
   text-decoration: none;
   color: #000000;
 }
