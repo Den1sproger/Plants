@@ -83,8 +83,8 @@ nav {
 
 #welcome {
   display: flex;
-  min-width: 1440px;
-  height: 532px;
+  height: 407.358px;
+  padding: 62px 109px 62.642px 109px;
   font-family: 'Inter';
   font-style: normal;
   background: #EDF2EC;
@@ -96,8 +96,6 @@ nav {
 .welcome {
   width: 1222px;
   height: 407.358px;
-  padding: 62px 109px 62.642px 109px;
-  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -226,8 +224,8 @@ h1 span {
 
 #about {
   display: flex;
-  min-width: 1440px;
-  height: 666px;
+  height: 479px;
+  padding: 93px 109px 94px 109px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
@@ -238,8 +236,6 @@ h1 span {
 .about {
   width: 1222px;
   height: 479px;
-  padding: 93px 109px 94px 109px;
-  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -291,19 +287,20 @@ h1 span {
 
 #service {
   display: flex;
-  min-width: 1222px;
   height: 1139px;
-  padding: 40px 109px 121px 109px;
+  padding-top: 40px;
+  padding-bottom: 121px;
+  padding-left: auto;
+  padding-right: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* gap: 90px; */
   background: #EDF2EC;
   font-style: normal;
 }
 
 .service__container {
-  min-width: 1222px;
+  max-width: 1222px;
   height: 1139px;
   gap: 90px;
   display: flex;
@@ -425,7 +422,6 @@ h1 span {
 
 #prices {
   display: flex;
-  min-width: 1222px;
   height: 405px;
   padding: 40px 109px 115px 109px;
   justify-content: center;
@@ -603,7 +599,6 @@ h1 span {
 
 
 #contacts {
-  min-width: 1222px;
   height: 497px;
   padding: 53px 109px 0 109px;
   flex-shrink: 0;
@@ -616,7 +611,7 @@ h1 span {
 }
 
 .contacts__container {
-  min-width: 1222px;
+  width: 1222px;
   height: 497px;
   display: flex;
   flex-direction: row;
