@@ -258,19 +258,14 @@ h1 span {
 }
 
 .prices {
-  width: 332px;
-  height: 391.015px;
   flex-shrink: 0;
 }
 
 .prices h2 {
-  font-size: 40px;
   line-height: normal;
 }
 
 .prices__item {
-  width: 332px;
-  height: 282.011px;
   flex-shrink: 0;
   border-radius: 20px;
   border: 1px solid #E3E1D5;
@@ -280,8 +275,6 @@ h1 span {
 }
 
 .prices__items {
-  width: 250px;
-  height: 214.008px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -290,21 +283,14 @@ h1 span {
 }
 
 .price__item {
-  width: 250px;
-  height: 50.002px;
   flex-shrink: 0;
   border-radius: 20px;
   background: #EDF2EC;
-  font-size: 20px;
   line-height: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.price__item span {
-  margin-left: 40px;
 }
 
 .price__item svg {
@@ -326,12 +312,7 @@ h1 span {
 }
 
 .text-call-us p {
-  width: 452px;
-  height: 103.004px;
   flex-shrink: 0;
-  font-size: 40px;
-  text-align: right;
-  line-height: 50px;
 }
 
 .text-call-us p span {
@@ -340,11 +321,8 @@ h1 span {
 
 .text-call-us button {
   color: #E06733;
-  width: 162px;
-  height: 50.002px;
   flex-shrink: 0;
   font-family: Inika;
-  font-size: 20px;
   border-radius: 5px;
   border: 1px solid #E06733;
   line-height: normal;
@@ -536,6 +514,49 @@ h1 span {
   .prices__container {
     width: 1222px;
     height: 405px;
+  }
+
+  .prices {
+    width: 332px;
+    height: 391.015px;
+  }
+  
+  .prices h2 {
+    font-size: 40px;
+  }
+
+  .prices__item {
+    width: 332px;
+    height: 282.011px;
+  }
+  
+  .prices__items {
+    width: 250px;
+    height: 214.008px;
+  }
+  
+  .price__item {
+    width: 250px;
+    height: 50.002px;
+    font-size: 20px;
+  }
+
+  .price__item span {
+    margin-left: 40px;
+  }
+
+  .text-call-us p {
+    width: 452px;
+    height: 103.004px;
+    font-size: 40px;
+    text-align: right;
+    line-height: 50px;
+  }
+
+  .text-call-us button {
+    width: 162px;
+    height: 50.002px;
+    font-size: 20px;
   }
 }
 
@@ -825,6 +846,8 @@ footer {
     height: 17px;
   }
 
+
+
   #welcome {
     height: 310px;
     padding: 40px 50px 70px 50px;
@@ -881,6 +904,8 @@ footer {
     font-size: 35px;
   }
 
+
+
   #about {
     height: 648px;
     padding: 93px 109px 94px 109px;
@@ -919,6 +944,7 @@ footer {
   }
 
 
+
   #prices {
     height: 457px;
     padding: 40px 50px 88.015px 50px;
@@ -927,6 +953,49 @@ footer {
   .prices__container {
     width: 668px;
     height: 457px;
+  }
+
+  .prices {
+    width: 332px;
+    height: 457px;
+  }
+  
+  .prices h2 {
+    font-size: 35px;
+  }
+
+  .prices__item {
+    width: 332px;
+    height: 282px;
+  }
+  
+  .prices__items {
+    width: 250px;
+    height: 214px;
+  }
+  
+  .price__item {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .price__item span {
+    margin-left: 40px;
+  }
+
+  .text-call-us p {
+    width: 296px;
+    height: 77.412px;
+    font-size: 25px;
+    text-align: right;
+    line-height: 35px;
+  }
+
+  .text-call-us button {
+    width: 162px;
+    height: 50px;
+    font-size: 20px;
   }
 }
 
