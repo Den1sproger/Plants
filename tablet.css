@@ -1,0 +1,298 @@
+/* Tablet version */
+@media (max-width: 1279px) {
+  body {
+    height: 4605px;
+  }
+
+
+  /* Header */
+  header {
+    height: 47px;
+    padding: 35px 50px;
+  }
+
+  .navbar {
+    width: 668px;
+    height: 47px;
+  }
+
+  .logo {
+    width: 77px;
+    height: 21.041px;
+  }
+
+  .logo span {
+    width: 56.532px;
+    height: 17px;
+  }
+
+
+  /* Welcome section */
+  #welcome {
+    height: 310px;
+    padding: 40px 50px 70px 50px;
+  }
+  
+  .welcome {
+    width: 668px;
+    height: 310px;
+  }
+
+  .welcome__leafs {
+    width: 280px;
+    height: 254.148px;
+    order: 2;
+  }
+
+  .welcome__leaf-1 {
+    width: 50.68px;
+    height: 37.988px;
+  }
+  
+  .welcome__leaf-2 {
+    width: 153.046px;
+    height: 110.95px;
+  }
+  
+  .welcome__leaf-3 {
+    width: 101.998px;
+    height: 88.506px;
+  }
+  
+  .welcome__leaf-4 {
+    width: 50.119px;
+    height: 38.415px;
+  }
+  
+  .welcome__leaf-5 {
+    width: 75.445px;
+    height: 48.047px;
+  }
+
+  .welcome__text {
+    width: 346px;
+    height: 310px;
+    order: 1;
+  }
+  
+  .welcome__text p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+
+  /* About section */
+  #about {
+    height: 648px;
+    padding: 93px 109px 94px 109px;
+  }
+  
+  .about {
+    width: 668px;
+    height: 648px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-us-section {
+    width: 668px;
+    height: 350px;
+    align-items: center;
+  }
+
+  .about-us-section h2 {
+    width: 423px;
+    height: 102px;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .about-us-section p {
+    width: 668px;
+    height: 208px;
+    font-size: 20px;
+    line-height: 30px; /* 150% */
+  }
+
+  .houseplant {
+    width: 250px;
+    height: 258px;
+  }
+
+
+  /* service section */
+  #service {
+    height: 1650px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  
+  .service__container {
+    max-width: 668px;
+    height: 1650px;
+    gap: 40px;
+  }
+
+  .services__content {
+    width: 559px;
+    height: 184px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .services__content h2 {
+    width: 306px;
+    height: 94px;
+    font-size: 35px;
+    margin: 0;
+  }
+
+  .services__btns {
+    width: 559px;
+    height: 50px;
+  }
+  
+  .services__btns button {
+    font-size: 20px;
+    width: 161px;
+    height: 50px;
+  }
+
+  .services {
+    width: 668px;
+    height: 1426px;
+    column-gap: 55px;
+    row-gap: 38px;
+  }
+
+  .service__item {
+    width: 281px;
+  }
+
+  .service__item img {
+    width: 280px;
+  }
+  
+  .service__item div {
+    width: 280px;
+  }
+
+  
+  /* Prices section */
+  #prices {
+    height: 457px;
+    padding: 40px 50px 88.015px 50px;
+  }
+  
+  .prices__container {
+    width: 668px;
+    height: 457px;
+  }
+
+  .prices {
+    width: 332px;
+    height: 457px;
+  }
+  
+  .prices h2 {
+    font-size: 35px;
+  }
+
+  .prices__item {
+    width: 332px;
+    height: 282px;
+  }
+  
+  .prices__items {
+    width: 250px;
+    height: 214px;
+  }
+  
+  .price__item {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .price__item span {
+    margin-left: 40px;
+  }
+
+  .text-call-us p {
+    width: 296px;
+    height: 77.412px;
+    font-size: 25px;
+    text-align: right;
+    line-height: 35px;
+  }
+
+  .text-call-us button {
+    width: 162px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+
+  /* Contacts section */
+  #contacts {
+    height: 739px;
+    padding: 0 159px;
+  }
+
+  .contacts__container {
+    width: 450px;
+    height: 739px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contacts__container img {
+    width: 200px;
+    height: 248.493px;
+    order: 3;
+  }
+
+  #contacts h2 {
+    width: 195px;
+    height: 51px;
+    font-size: 40px;
+    order: 1;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  
+  .contacts__cities {
+    width: 450px;
+    height: 50px;
+    order: 2;
+    margin-top: 100px;
+    margin-bottom: 250px;
+  }
+
+  .contacts__cities svg {
+    margin-right: 35px;
+  }
+
+
+  /* Footer */
+  footer {
+    height: 130px;
+    padding: 33px 0px 18px 0px;
+    line-height: normal;
+  }
+  
+  .footer__container {
+    width: 210px;
+    height: 130px;
+    flex-direction: column;
+  }
+
+  .social-list {
+    padding: 0;
+    margin: 0;
+  }
+}
