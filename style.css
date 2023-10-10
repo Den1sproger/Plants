@@ -18,6 +18,7 @@ ul {
 
 
 
+/* Header */
 header {
   display: flex;
   justify-content: center;
@@ -76,6 +77,7 @@ nav {
 
 
 
+/* Welcome section */
 #welcome {
   display: flex;
   height: 407.358px;
@@ -194,6 +196,7 @@ h1 span {
 
 
 
+/* About section */
 #about {
   display: flex;
   justify-content: center;
@@ -239,7 +242,112 @@ h1 span {
 
 
 
+/* Service section */
+#service {
+  display: flex;
+  padding-left: auto;
+  padding-right: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #EDF2EC;
+  font-style: normal;
+}
 
+.service__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.services__content {
+  font-family: Inika;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__content h2 {
+  flex-shrink: 0;
+  color: #499A18;
+}
+
+.services__btns {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services__btns button {
+  color: #E06733;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #E06733;
+}
+
+.services__btns button:hover {
+  background-color: #E06733;
+  color: #FFFFFF;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Inter;
+}
+
+.service__item {
+  height: 450px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service__item img {
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.service__item div {
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 20px 20px;
+  border: 1px solid #E3E1D5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.service__item__title {
+  color: #E06733;
+  flex-shrink: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.service__item__description {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+
+
+/* Prcies section */
 #prices {
   display: flex;
   justify-content: center;
@@ -390,314 +498,8 @@ h1 span {
 }
 
 
-/* Desktop version */
-@media (min-width: 1280px) {
-  body {
-    height: 3870px;
-  }
 
-  header {
-    height: 50px;
-    padding: 42px 109px 42px 111px;
-  }
-
-  .navbar {
-    width: 1220px;
-    height: 50px;
-  }
-
-  .logo {
-    width: 79.175px;
-    height: 21.041px;
-  }
-
-  .logo span {
-    width: 58.128px;
-    height: 17px;
-  }
-
-  #welcome {
-    height: 407.358px;
-    padding: 62px 109px 62.642px 109px;
-  }
-  
-  .welcome {
-    width: 1222px;
-    height: 407.358px;
-  }
-
-  .welcome__leafs {
-    width: 448.795px;
-    height: 407.358px;
-    flex: 1;
-  }
-
-  .welcome__leaf-1 {
-    width: 81.232px;
-    height: 60.889px;
-  }
-  
-  .welcome__leaf-2 {
-    width: 245.308px;
-    height: 177.835px;
-  }
-  
-  .welcome__leaf-3 {
-    width: 163.487px;
-    height: 141.861px;
-  }
-  
-  .welcome__leaf-4 {
-    width: 80.332px;
-    height: 61.573px;
-  }
-  
-  .welcome__leaf-5 {
-    width: 120.926px;
-    height: 77.012px;
-  }
-
-  .welcome__text {
-    width: 549px;
-    height: 340px;
-  }
-  
-  .welcome__text p {
-    font-size: 20px;
-    line-height: 35px;
-  }
-
-  h1 {
-    font-size: 45px;
-  }
-
-  #about {
-    height: 479px;
-    padding: 93px 109px 94px 109px;
-  }
-  
-  .about {
-    width: 1222px;
-    height: 479px;
-    flex-direction: row;
-  }
-
-  .about-us-section {
-    width: 605px;
-    height: 350px;
-    align-items: flex-start;
-  }
-
-  .about-us-section h2 {
-    width: 463px;
-    height: 102px;
-    font-size: 40px;
-  }
-
-  .about-us-section p {
-    width: 605px;
-    height: 208px;
-    font-size: 20px;
-    line-height: 30px; /* 150% */
-  }
-
-  .houseplant {
-    width: 464px;
-    height: 479px;
-  }
-
-  #prices {
-    height: 405px;
-    padding: 40px 109px 115px 109px;
-  }
-  
-  .prices__container {
-    width: 1222px;
-    height: 405px;
-  }
-
-  .prices {
-    width: 332px;
-    height: 391.015px;
-  }
-  
-  .prices h2 {
-    font-size: 40px;
-  }
-
-  .prices__item {
-    width: 332px;
-    height: 282.011px;
-  }
-  
-  .prices__items {
-    width: 250px;
-    height: 214.008px;
-  }
-  
-  .price__item {
-    width: 250px;
-    height: 50.002px;
-    font-size: 20px;
-  }
-
-  .price__item span {
-    margin-left: 40px;
-  }
-
-  .text-call-us p {
-    width: 452px;
-    height: 103.004px;
-    font-size: 40px;
-    text-align: right;
-    line-height: 50px;
-  }
-
-  .text-call-us button {
-    width: 162px;
-    height: 50.002px;
-    font-size: 20px;
-  }
-}
-
-
-
-
-#service {
-  display: flex;
-  height: 1139px;
-  padding-top: 40px;
-  padding-bottom: 121px;
-  padding-left: auto;
-  padding-right: auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #EDF2EC;
-  font-style: normal;
-}
-
-.service__container {
-  max-width: 1222px;
-  height: 1139px;
-  gap: 90px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.services__content {
-  font-family: Inika;
-  font-weight: 400;
-  line-height: normal;
-  width: 1007px;
-  height: 94px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.services__content h2 {
-  width: 306px;
-  height: 94px;
-  flex-shrink: 0;
-  color: #499A18;
-  font-size: 40px;
-}
-
-.services__btns {
-  width: 559px;
-  height: 50px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.services__btns button {
-  color: #E06733;
-  font-size: 20px;
-  width: 161px;
-  height: 50px;
-  flex-shrink: 0;
-  border-radius: 5px;
-  border: 1px solid #E06733;
-}
-
-.services__btns button:hover {
-  background-color: #E06733;
-  color: #FFFFFF;
-}
-
-.services {
-  width: 1222px;
-  height: 955px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  font-family: Inter;
-}
-
-.services .row {
-  width: 1222px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.service__item {
-  width: 330px;
-  height: 450px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.service__item img {
-  width: 330px;
-  height: 350px;
-  flex-shrink: 0;
-  border-radius: 20px 20px 0px 0px;
-}
-
-.service__item div {
-  width: 330px;
-  height: 100px;
-  flex-shrink: 0;
-  border-radius: 0px 0px 20px 20px;
-  border: 1px solid #E3E1D5;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.service__item__title {
-  color: #E06733;
-  flex-shrink: 0;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.service__item__description {
-  color: #717171;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px; /* 125% */
-}
-
-
-
-
+/* Contacts section */
 #contacts {
   height: 497px;
   padding: 53px 109px 0 109px;
@@ -770,6 +572,245 @@ h1 span {
 
 
 
+/* Desktop version */
+@media (min-width: 1280px) {
+  body {
+    height: 3870px;
+  }
+
+  
+  /* Header */
+  header {
+    height: 50px;
+    padding: 42px 109px 42px 111px;
+  }
+
+  .navbar {
+    width: 1220px;
+    height: 50px;
+  }
+
+  .logo {
+    width: 79.175px;
+    height: 21.041px;
+  }
+
+  .logo span {
+    width: 58.128px;
+    height: 17px;
+  }
+
+  
+  /* Welcome section */
+  #welcome {
+    height: 407.358px;
+    padding: 62px 109px 62.642px 109px;
+  }
+  
+  .welcome {
+    width: 1222px;
+    height: 407.358px;
+  }
+
+  .welcome__leafs {
+    width: 448.795px;
+    height: 407.358px;
+    flex: 1;
+  }
+
+  .welcome__leaf-1 {
+    width: 81.232px;
+    height: 60.889px;
+  }
+  
+  .welcome__leaf-2 {
+    width: 245.308px;
+    height: 177.835px;
+  }
+  
+  .welcome__leaf-3 {
+    width: 163.487px;
+    height: 141.861px;
+  }
+  
+  .welcome__leaf-4 {
+    width: 80.332px;
+    height: 61.573px;
+  }
+  
+  .welcome__leaf-5 {
+    width: 120.926px;
+    height: 77.012px;
+  }
+
+  .welcome__text {
+    width: 549px;
+    height: 340px;
+  }
+  
+  .welcome__text p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+
+  /* About section */
+  #about {
+    height: 479px;
+    padding: 93px 109px 94px 109px;
+  }
+  
+  .about {
+    width: 1222px;
+    height: 479px;
+    flex-direction: row;
+  }
+
+  .about-us-section {
+    width: 605px;
+    height: 350px;
+    align-items: flex-start;
+  }
+
+  .about-us-section h2 {
+    width: 463px;
+    height: 102px;
+    font-size: 40px;
+  }
+
+  .about-us-section p {
+    width: 605px;
+    height: 208px;
+    font-size: 20px;
+    line-height: 30px; /* 150% */
+  }
+
+  .houseplant {
+    width: 464px;
+    height: 479px;
+  }
+
+
+  /* service section */
+  #service {
+    height: 1139px;
+    padding-top: 40px;
+    padding-bottom: 121px;
+  }
+  
+  .service__container {
+    max-width: 1222px;
+    height: 1139px;
+    gap: 90px;
+  }
+
+  .services__content {
+    width: 1007px;
+    height: 94px;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .services__content h2 {
+    width: 306px;
+    height: 94px;
+    font-size: 40px;
+  }
+
+  .services__btns {
+    width: 559px;
+    height: 50px;
+  }
+  
+  .services__btns button {
+    font-size: 20px;
+    width: 161px;
+    height: 50px;
+  }
+
+  .services {
+    width: 1222px;
+    height: 955px;
+    column-gap: 116px;
+    row-gap: 55px;
+  }
+
+  .service__item {
+    width: 330px;
+  }
+
+  .service__item img {
+    width: 329.003px;
+  }
+  
+  .service__item div {
+    width: 330px;
+  }
+
+
+  /* Prices section */
+  #prices {
+    height: 405px;
+    padding: 40px 109px 115px 109px;
+  }
+  
+  .prices__container {
+    width: 1222px;
+    height: 405px;
+  }
+
+  .prices {
+    width: 332px;
+    height: 391.015px;
+  }
+  
+  .prices h2 {
+    font-size: 40px;
+  }
+
+  .prices__item {
+    width: 332px;
+    height: 282.011px;
+  }
+  
+  .prices__items {
+    width: 250px;
+    height: 214.008px;
+  }
+  
+  .price__item {
+    width: 250px;
+    height: 50.002px;
+    font-size: 20px;
+  }
+
+  .price__item span {
+    margin-left: 40px;
+  }
+
+  .text-call-us p {
+    width: 452px;
+    height: 103.004px;
+    font-size: 40px;
+    text-align: right;
+    line-height: 50px;
+  }
+
+  .text-call-us button {
+    width: 162px;
+    height: 50.002px;
+    font-size: 20px;
+  }
+  
+}
+
+
+
+
 footer {
   display: flex;
   height: 50px;
@@ -826,6 +867,8 @@ footer {
     height: 4605px;
   }
 
+
+  /* Header */
   header {
     height: 47px;
     padding: 35px 50px;
@@ -847,7 +890,7 @@ footer {
   }
 
 
-
+  /* Welcome section */
   #welcome {
     height: 310px;
     padding: 40px 50px 70px 50px;
@@ -905,7 +948,7 @@ footer {
   }
 
 
-
+  /* About section */
   #about {
     height: 648px;
     padding: 93px 109px 94px 109px;
@@ -944,7 +987,65 @@ footer {
   }
 
 
+  /* service section */
+  #service {
+    height: 1650px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  
+  .service__container {
+    max-width: 668px;
+    height: 1650px;
+    gap: 40px;
+  }
 
+  .services__content {
+    width: 559px;
+    height: 184px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .services__content h2 {
+    width: 306px;
+    height: 94px;
+    font-size: 35px;
+    margin: 0;
+  }
+
+  .services__btns {
+    width: 559px;
+    height: 50px;
+  }
+  
+  .services__btns button {
+    font-size: 20px;
+    width: 161px;
+    height: 50px;
+  }
+
+  .services {
+    width: 668px;
+    height: 1426px;
+    column-gap: 55px;
+    row-gap: 38px;
+  }
+
+  .service__item {
+    width: 281px;
+  }
+
+  .service__item img {
+    width: 280px;
+  }
+  
+  .service__item div {
+    width: 280px;
+  }
+
+  
+  /* Prices section */
   #prices {
     height: 457px;
     padding: 40px 50px 88.015px 50px;
@@ -997,7 +1098,9 @@ footer {
     height: 50px;
     font-size: 20px;
   }
+
 }
+
 
 /* mobile version */
 @media (max-width: 660px) {
