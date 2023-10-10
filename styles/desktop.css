@@ -241,7 +241,7 @@
   }
 
   .contacts__container {
-    width: 1222px;
+    max-width: 1222px;
     height: 497px;
     flex-direction: row;
     align-items: flex-start;
