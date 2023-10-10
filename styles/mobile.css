@@ -105,4 +105,63 @@
   }
 
 
+
+  /* Contacts section */
+  #contacts {
+    height: 445px;
+    padding: 0 40px;
+  }
+
+  .contacts__container {
+    width: 300px;
+    height: 445px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contacts__container img {
+    width: 100px;
+    height: 124.246px;
+    order: 3;
+  }
+
+  #contacts h2 {
+    text-align: center;
+    width: 192px;
+    height: 34px;
+    font-size: 25px;
+    order: 1;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+  
+  .contacts__cities {
+    width: 300px;
+    height: 50px;
+    order: 2;
+    margin-top: 80px;
+    margin-bottom: 132px;
+  }
+
+  .contacts__cities svg {
+    margin-right: 20px;
+  }
+
+  /* Footer */
+  footer {
+    height: 117px;
+    padding: 22px 85px 7px 85px;
+    line-height: normal;
+  }
+  
+  .footer__container {
+    width: 210px;
+    height: 117px;
+    flex-direction: column;
+  }
+
+  .social-list {
+    padding: 0;
+    margin: 0;
+  }
 }
