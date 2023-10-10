@@ -16,14 +16,8 @@
     height: 47px;
   }
 
-  .logo {
-    width: 77px;
-    height: 21.041px;
-  }
-
-  .logo span {
-    width: 56.532px;
-    height: 17px;
+  .burger {
+    display: none;
   }
 
 
@@ -74,6 +68,12 @@
     height: 310px;
     order: 1;
   }
+
+  .welcome__text button {
+    width: 158px;
+    height: 44px;
+    font-size: 16px;
+  }
   
   .welcome__text p {
     font-size: 16px;
@@ -82,6 +82,7 @@
 
   h1 {
     font-size: 35px;
+    line-height: 50px
   }
 
 

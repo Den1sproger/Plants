@@ -1,0 +1,108 @@
+/* mobile version */
+@media (max-width: 660px) {
+  body {
+    height: 5165px;
+  }
+
+
+  /* Header */
+  header {
+    height: 24px;
+    padding: 36px 24px;
+  }
+
+  .navbar {
+    width: 332px;
+    height: 24px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    border: 0;
+    padding: 0;
+  }
+
+
+  /* Welcome section */
+  #welcome {
+    height: 252px;
+    padding: 24px 25px;
+  }
+  
+  .welcome {
+    width: 330px;
+    height: 252px;
+  }
+
+  .welcome__leafs {
+    display: none;
+  }
+
+  .welcome__text {
+    width: 330px;
+    height: 252px;
+  }
+
+  .welcome__text button {
+    width: 100px;
+    height: 34.137px;
+    font-size: 10px;
+  }
+
+  .welcome__text p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  h1 {
+    font-size: 25px;
+    line-height: 35px
+  }
+
+
+  /* About section */
+  #about {
+    height: 445px;
+    padding: 30px 25px 31px 25px;
+  }
+  
+  .about {
+    width: 330px;
+    height: 445px;
+    flex-direction: column;
+    gap: 0.33px;
+  }
+
+  .about-us-section {
+    width: 330px;
+    height: 307.67px;
+    align-items: center;
+  }
+
+  .about-us-section h2 {
+    width: 288px;
+    height: 57.741px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .about-us-section p {
+    width: 330px;
+    height: 228.38px;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
+  }
+
+  .houseplant {
+    width: 150px;
+    height: 147px;
+  }
+
+
+}
