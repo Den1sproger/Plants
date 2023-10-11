@@ -16,6 +16,14 @@
     height: 50px;
   }
 
+  nav li:not(:first-child):hover {
+    background-color: #E06733;
+  }
+  
+  nav li:first-child:hover {
+    background-color: #499A18;
+  }
+
   .burger {
     display: none;
   }
