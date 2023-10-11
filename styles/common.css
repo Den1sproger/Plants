@@ -72,10 +72,10 @@ nav {
   text-decoration: none;
 }
 
-.nav__link_home {
+.nav__link.home {
   color: #E06733;
   font-weight: 700;
-  line-height: 50px; /* 312.5% */
+  line-height: 50px;
   text-decoration: none;
 }
 
