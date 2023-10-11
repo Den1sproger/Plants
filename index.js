@@ -7,14 +7,12 @@ const body = document.querySelector('body')
 
 
 function changeBurgerMenu() {
+  // Toggle navigation menu
   navigation.classList.toggle('active')
   body.classList.toggle('lock')
-  changeBurgerImage()
-}
 
-
-function changeBurgerImage() {
-  if (body.className === 'lock') {
+  // Toggle burger image
+  if (navigation.className === 'active') {
     burgerImage.innerHTML = `
     <line y1="1" x2="40" y2="25" stroke="#717171" stroke-width="2"/>
     <line y1="25" x2="40" y2="1" stroke="#717171" stroke-width="2"/>
@@ -30,9 +28,19 @@ function changeBurgerImage() {
 }
 
 
-
 burgerButton.addEventListener('click', changeBurgerMenu)
 
 for (let navLink of navigationLinks) {
   navLink.addEventListener('click', changeBurgerMenu)
 }
+
+
+document.addEventListener('click', event => {
+  const isMenu = event.target == navigation || navigation.contains(event.target)
+  const isBurger = event.target == burgerButton || event.target == burgerImage
+  const isActive = navigation.className === 'active'
+
+  if (!isMenu && isActive && !isBurger) {
+    changeBurgerMenu()
+  }
+})
