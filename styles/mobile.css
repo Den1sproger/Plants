@@ -4,6 +4,10 @@
     height: 5165px;
   }
 
+  body.lock {
+    overflow-y: hidden;
+  }
+
 
   /* Header */
   header {
@@ -17,7 +21,29 @@
   }
 
   nav {
-    display: none;
+    right: -100%;
+    width: 0;
+    height: 100%;
+    top: 96px;
+    position: fixed;
+    background-color: #FFFFFF;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  nav.active {
+    right: 0;
+    width: 250px;
+  }
+
+  .nav__list {
+    padding: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .burger {
