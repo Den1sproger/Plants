@@ -299,3 +299,32 @@
     margin: 0;
   }
 }
+
+
+
+
+@media (max-width: 340px) {
+  .navbar {
+    max-width: 272px;
+  }
+
+  .welcome, .welcome__text, .about, .about-us-section, .service__container, .services__content, .prices__container, .contacts__container,  .contacts__cities {
+    max-width: 270px;
+  }
+
+  h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .welcome__text h2, .about-us-section h2, .services__content h2, .prices h2, #contacts h2 {
+    font-size: 18px;
+  }
+
+  .welcome__text p, .about-us-section p, .text-call-us p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 270px;
+  }
+
+}
