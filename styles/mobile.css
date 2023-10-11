@@ -105,6 +105,66 @@
   }
 
 
+  /* service section */
+  #service {
+    height: 3093px;
+    padding: 30px 25px 27px 25px;
+  }
+  
+  .service__container {
+    max-width: 330px;
+    height: 3093px;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .services__content {
+    width: 330px;
+    height: 183px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .services__content h2 {
+    width: 187px;
+    height: 69px;
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .services__btns {
+    width: 252px;
+    height: 79px;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 9px;
+  }
+  
+  .services__btns button {
+    font-size: 15px;
+    width: 121px;
+    height: 35px;
+  }
+
+  .services {
+    width: 280px;
+    height: 2870px;
+    row-gap: 34px;
+  }
+
+  .service__item {
+    width: 280px;
+  }
+
+  .service__item img {
+    width: 280px;
+  }
+  
+  .service__item div {
+    width: 280px;
+  }
+
+
 
   /* Contacts section */
   #contacts {

@@ -136,6 +136,7 @@
     max-width: 668px;
     height: 1650px;
     gap: 40px;
+    align-items: flex-start;
   }
 
   .services__content {
