@@ -358,7 +358,6 @@ h1 span {
 
 .prices__container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -414,7 +413,6 @@ h1 span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
 }
 
 .text-call-us p {

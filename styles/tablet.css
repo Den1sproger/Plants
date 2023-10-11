@@ -195,6 +195,7 @@
   .prices__container {
     width: 668px;
     height: 457px;
+    flex-direction: row;
   }
 
   .prices {
@@ -226,6 +227,10 @@
     margin-left: 40px;
   }
 
+  .text-call-us {
+    align-items: flex-end;
+  }
+  
   .text-call-us p {
     width: 296px;
     height: 77.412px;

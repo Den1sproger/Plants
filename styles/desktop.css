@@ -188,6 +188,7 @@
   .prices__container {
     width: 1222px;
     height: 405px;
+    flex-direction: row;
   }
 
   .prices {
@@ -217,6 +218,10 @@
 
   .price__item span {
     margin-left: 40px;
+  }
+
+  .text-call-us {
+    align-items: flex-end;
   }
 
   .text-call-us p {

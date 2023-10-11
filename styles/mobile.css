@@ -165,6 +165,79 @@
   }
 
 
+  /* Prices section */
+  #prices {
+    height: 512px;
+    padding: 0;
+  }
+  
+  .prices__container {
+    width: 380px;
+    height: 512px;
+    flex-direction: column;
+  }
+
+  .prices {
+    width: 224px;
+    height: 302px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .prices h2 {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .prices__item {
+    width: 224px;
+    height: 235px;
+  }
+  
+  .prices__items {
+    width: 180px;
+    height: 177px;
+  }
+  
+  .price__item {
+    width: 180px;
+    height: 49.719px;
+    font-size: 15px;
+  }
+
+  .price__item span {
+    margin-left: 30px;
+  }
+
+  .text-call-us {
+    width: 230px;
+    height: 126px;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .text-call-us p {
+    width: 230px;
+    height: 77px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    margin: 0;
+  }
+
+  .text-call-us button {
+    width: 121px;
+    height: 35px;
+    font-size: 15px;
+  }
+
+  .prices__leafs {
+    display: none;
+  }
+
 
   /* Contacts section */
   #contacts {
@@ -206,6 +279,7 @@
   .contacts__cities svg {
     margin-right: 20px;
   }
+
 
   /* Footer */
   footer {
