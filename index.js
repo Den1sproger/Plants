@@ -13,17 +13,9 @@ function changeBurgerMenu() {
 
   // Toggle burger image
   if (navigation.className === 'active') {
-    burgerImage.innerHTML = `
-    <line y1="1" x2="40" y2="25" stroke="#717171" stroke-width="2"/>
-    <line y1="25" x2="40" y2="1" stroke="#717171" stroke-width="2"/>
-    `
+    burgerImage.src = 'assets/burger_cross.svg'
   } else {
-    burgerImage.innerHTML = `
-    <line y1="1" x2="40" y2="1" stroke="#717171" stroke-width="2"/>
-    <line y1="9" x2="40" y2="9" stroke="#717171" stroke-width="2"/>
-    <line y1="17" x2="40" y2="17" stroke="#717171" stroke-width="2"/>
-    <line y1="25" x2="40" y2="25" stroke="#717171" stroke-width="2"/>
-    `
+    burgerImage.src = 'assets/burger.svg'
   }
 }
 
@@ -40,7 +32,5 @@ document.addEventListener('click', event => {
   const isBurger = event.target == burgerButton || event.target == burgerImage
   const isActive = navigation.className === 'active'
 
-  if (!isMenu && isActive && !isBurger) {
-    changeBurgerMenu()
-  }
+  if (!isMenu && isActive && !isBurger) {changeBurgerMenu()}
 })
