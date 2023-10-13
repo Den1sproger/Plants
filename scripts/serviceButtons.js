@@ -67,7 +67,7 @@ function handleClick(event) {
   }
 
   // if current button is active or noе all other buttons are active
-  if (button.className === 'click' || clickedButtonsId.length < 2) {
+  if (button.className === 'click' || activeButtonsId.length < 2) {
     checkState(button, activeButtonsId)
   }
 }

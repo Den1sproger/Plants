@@ -292,7 +292,7 @@ h1 span {
   border: 1px solid #E06733;
 }
 
-.services__btns button.click {
+.services__btns button.click, .services__btns button:hover {
   background-color: #E06733;
   color: #FFFFFF;
 }
