@@ -26,7 +26,6 @@ for (let navLink of navigationLinks) {
   navLink.addEventListener('click', changeBurgerMenu)
 }
 
-
 document.addEventListener('click', event => {
   const isMenu = event.target == navigation || navigation.contains(event.target)
   const isBurger = event.target == burgerButton || event.target == burgerImage

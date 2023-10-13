@@ -292,7 +292,7 @@ h1 span {
   border: 1px solid #E06733;
 }
 
-.services__btns button:hover {
+.services__btns button.click {
   background-color: #E06733;
   color: #FFFFFF;
 }
@@ -313,6 +313,12 @@ h1 span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  filter: blur(0);
+  transition: filter 0.5s;
+}
+
+.service__item.blur {
+  filter: blur(2px);
 }
 
 .service__item img {
