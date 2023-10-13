@@ -17,7 +17,7 @@ function toggleBlur(clickedTypes) {
 }
 
 
-function getServiceTexts(btnsId) {
+function getActiveServiceTexts(btnsId) {
   const serviceTypes = {
     garden: 'Garden care',
     lawn: 'Lawn care',
@@ -33,7 +33,7 @@ function getServiceTexts(btnsId) {
 
 
 function checkState(button, btnsId) {
-  if (button.className === 'click' && btnsId.length === 0) {
+  if (button.className === 'click' && btnsId.length === 0) {      // if current button is active and other buttons are not active
     for (let serviceItem of serviceItems) {
       serviceItem.className = 'service__item'
     }
@@ -42,10 +42,10 @@ function checkState(button, btnsId) {
     const fullBtnsID = btnsId.slice()
     fullBtnsID.push(button.id)
 
-    if (button.className === 'click' && btnsId.length > 0) {
-      clickedTypes = getServiceTexts(btnsId)
+    if (button.className === 'click' && btnsId.length > 0) {      // if currnet button is active and one other button is active
+      clickedTypes = getActiveServiceTexts(btnsId)
     } else {
-      clickedTypes = getServiceTexts(fullBtnsID)
+      clickedTypes = getActiveServiceTexts(fullBtnsID)
     }
 
     toggleBlur(clickedTypes)
@@ -54,21 +54,26 @@ function checkState(button, btnsId) {
 }
 
 
+
 function handleClick(event) {
   const button = event.target
-  let clickedButtonsId = []
-  
+
+  // search active buttons
+  let activeButtonsId = []
   for (let serviceBtn of serviceBtns) {
     if (serviceBtn.className === 'click' && serviceBtn.id !== button.id) {
-      clickedButtonsId.push(serviceBtn.id)
+      activeButtonsId.push(serviceBtn.id)
     }
   }
+
+  // if current button is active or noе all other buttons are active
   if (button.className === 'click' || clickedButtonsId.length < 2) {
-    checkState(button, clickedButtonsId)
+    checkState(button, activeButtonsId)
   }
 }
 
 
+// add listeners for each service Button
 for (let serviceBtn of serviceBtns) {
   serviceBtn.addEventListener('click', handleClick)
 }
