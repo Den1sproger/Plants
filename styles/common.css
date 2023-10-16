@@ -627,27 +627,95 @@ h1 span {
   line-height: normal;
 }
 
+form {
+  position: relative;
+}
+
 .contacts__cities {
   flex-shrink: 0;
   background: #D6E7D2;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.contacts__cities span {
-  width: 204px;
-  height: 40px;
-  margin-left: 20px;
-  flex-shrink: 0;
   color: #717171;
+  border: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 40px; /* 200% */
   letter-spacing: 1px;
+}
+
+.contacts__cities.active {
+  background: #C1E698;
+}
+
+.contacts__cities option:first-child {
+  display: none;
+}
+
+option {
+  flex-shrink: 0;
+  color: #717171;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+
+.city-card {
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #000000;
+  background: #EDF2EC;
+}
+
+.info-for-city {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.city-text div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 250% */
+  letter-spacing: 0.8px;
+}
+
+.city-text div span {
+  color: #000;
+}
+
+.city-text div p {
+  flex-shrink: 0;
+  color: #717171;
+}
+
+.info-for-city button {
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #E06733;
+  color: #717171;
+  text-align: center;
+  font-family: 'Inika', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 

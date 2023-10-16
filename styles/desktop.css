@@ -269,7 +269,7 @@
     flex: 1;
   }
 
-  .contacts__container img {
+  .contact__woman {
     width: 400px;
     height: 496.986px;
   }
@@ -281,14 +281,66 @@
     margin-top: 7px;
   }
 
+  form {
+    max-width: 450px;
+    height: 400px;
+    flex: 1;
+  }
+
   .contacts__cities {
     width: 450px;
     height: 50px;
-    margin-top: 95px;
+    padding-left: 20px;
+    margin-top: 80px;
   }
 
-  .contacts__cities svg {
-    margin-right: 35px;
+  form:after {
+    content: url('../assets/drop_down.svg');
+    position: absolute;
+    pointer-events: none;
+    top: 97px;
+    right: 35px;
+    z-index: 1;
+  }
+
+
+  .city-card {
+    margin-top: 60px;
+    width: 448px;
+    height: 214px;
+  }
+  
+  .info-for-city {
+    padding: 17px 76px 32px 33px;
+    width: 339px;
+    height: 165px;
+  }
+  
+  .city-text {
+    width: 339px;
+    height: 120px;
+  }
+  
+  .city-text div {
+    width: 339px;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  .city-text div span {
+    width: 134px;
+    height: 40px;
+  }
+  
+  .city-text div p {
+    width: 204px;
+    height: 40px;
+  }
+  
+  .info-for-city button {
+    width: 122px;
+    height: 26px;
+    font-size: 10px;
   }
 
 

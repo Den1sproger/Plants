@@ -234,16 +234,17 @@
 
     <section id="contacts">
       <div class="contacts__container">
-        <img src="assets/contact_woman_1.png" alt="contact woman">
+        <img class="contact__woman" src="assets/contact_woman_1.png" alt="contact woman">
         <h2>Contact us</h2>
-        <div class="contacts__cities">
-          <span>City</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <circle cx="8" cy="8" r="8" fill="#AEA1A1"/>
-            <path d="M8.00003 8.99997L6.00002 7.00008" stroke="white" stroke-width="0.5" stroke-linecap="round"/>
-            <path d="M8 9L10 7" stroke="white" stroke-width="0.5" stroke-linecap="round"/>
-          </svg>
-        </div>
+        <form>
+          <select class="contacts__cities">
+            <option>City</option>
+            <option value="Canandaigua, NY">Canandaigua, NY</option>
+            <option value="New York City">New York City</option>
+            <option value="Yonkers, NY">Yonkers, NY</option>
+            <option value="Sherrill, NY">Sherrill, NY</option>
+          </select>
+        </form>
       </div>
     </section>
     
@@ -293,6 +294,7 @@
   <script src="scripts/burgerButton.js"></script>
   <script src="scripts/serviceButtons.js"></script>
   <script src="scripts/pricesButtons.js"></script>
+  <script src="scripts/selectConatcs.js"></script>
 
 </body>
 

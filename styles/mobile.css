@@ -378,7 +378,7 @@
     align-items: center;
   }
   
-  .contacts__container img {
+  .contact__woman {
     width: 100px;
     height: 124.246px;
     order: 3;
@@ -393,19 +393,70 @@
     margin-top: 25px;
     margin-bottom: 0;
   }
+
+  form {
+    width: 280px;
+    height: 262px;
+    order: 2;
+  }
   
   .contacts__cities {
-    width: 300px;
+    width: 280px;
     height: 50px;
-    order: 2;
+    padding-left: 20px;
     margin-top: 80px;
-    margin-bottom: 132px;
+    top: 0;
   }
 
-  .contacts__cities svg {
-    margin-right: 20px;
+  form:after {
+    content: url('../assets/drop_down.svg');
+    position: absolute;
+    pointer-events: none;
+    top: 97px;
+    right: 20px;
+    z-index: 1;
   }
 
+
+  .city-card {
+    margin-top: 20px;
+    width: 282px;
+    height: 212px;
+  }
+  
+  .info-for-city {
+    padding: 23px 36px 23px 36px;
+    width: 210px;
+    height: 166px;
+  }
+  
+  .city-text {
+    width: 210px;
+    height: 123px;
+  }
+  
+  .city-text div {
+    width: 210px;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  .city-text div span {
+    width: 64px;
+    height: 40px;
+  }
+  
+  .city-text div p {
+    width: 144px;
+    height: 40px;
+  }
+  
+  .info-for-city button {
+    width: 121.422px;
+    height: 26px;
+    font-size: 10px;
+  }
+  
 
   /* Footer */
   footer {
