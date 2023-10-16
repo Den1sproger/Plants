@@ -184,10 +184,6 @@ nav {
   align-items: center;
 }
 
-.welcome__text button:hover {
-  background-color: #E06733;
-}
-
 h1 {
   color: #717171;
   margin: 0;
@@ -292,7 +288,7 @@ h1 span {
   border: 1px solid #E06733;
 }
 
-.services__btns button.click, .services__btns button:hover {
+.services__btns button.click {
   background-color: #E06733;
   color: #FFFFFF;
 }
@@ -534,11 +530,6 @@ h1 span {
   border-radius: 5px;
   border: 1px solid #E06733;
   line-height: normal;
-}
-
-.text-call-us button:hover {
-  color: #FFFFFF;
-  background-color: #E06733;
 }
 
 .prices__leafs {
