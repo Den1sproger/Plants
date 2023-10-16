@@ -222,10 +222,18 @@
     width: 224px;
     height: 235px;
   }
+
+  .prices__item.revealed {
+    height: 285px;
+  }
   
   .prices__items {
     width: 180px;
     height: 177px;
+  }
+
+  .prices__items.revealed {
+    height: 227px;
   }
   
   .price__item {
@@ -234,9 +242,101 @@
     font-size: 15px;
   }
 
-  .price__item span {
+  .price__category {
     margin-left: 30px;
   }
+
+
+  .price__item.revealed {
+    width: 180px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #D6E7D2;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .price__item__container {
+    padding: 5px 10px 5px 10px;
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .price__item__container div {
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price__item__container div span {
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0;
+  }
+  
+  .dropdown {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    border: 0;
+    margin-right: 40px;
+    background-color: #EDF2EC;
+  }
+  
+  .dropup {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: #D6E7D2;
+  }
+  
+  .price__item__container hr {
+    width: 164px;
+    height: 0.5px;
+  }
+  
+  .description {
+    color: #717171;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 10px;
+  }
+  
+  .order {
+    color: #717171;
+    width: 50px;
+    height: 15px;
+    flex-shrink: 0;
+    font-size: 10px;
+    line-height: 10px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFFFFF;
+  }
+  
+  .price__sec {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  
+  .price__sec span {
+    color: #E06733;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+  }
+
 
   .text-call-us {
     width: 230px;

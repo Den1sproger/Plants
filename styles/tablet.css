@@ -211,10 +211,18 @@
     width: 332px;
     height: 282px;
   }
+
+  .prices__item.revealed {
+    height: 386.011px;
+  }
   
   .prices__items {
     width: 250px;
     height: 214px;
+  }
+
+  .prices__items.revealed {
+    height: 318px;
   }
   
   .price__item {
@@ -223,7 +231,7 @@
     font-size: 20px;
   }
 
-  .price__item span {
+  .price__category {
     margin-left: 40px;
   }
 
